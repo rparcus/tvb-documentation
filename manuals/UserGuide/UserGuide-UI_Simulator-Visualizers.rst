@@ -54,6 +54,10 @@ by clicking the "Brain Button" on the top-right of the screen.
 Time Series Fragment
 ~~~~~~~~~~~~~~~~~~~~
 
+.. figure:: screenshots/time_series_fragment.jpg
+   :width: 90%
+   :align: center
+
 This is an alternative time series visualizer written using D3.js.
 
 It displays time series information about the selected nodes. If it is coupled with the Time Series Volume
@@ -64,7 +68,7 @@ This visualizer is composed of three main parts:
 
 + Brush section: The brush function is used to display only a portion of the data, zooming on it if possible. The user can manually select the brushing extent while it will automatically set itself around the current time point with a default extent during playback.
 
-+ Sortable Graph: Every selected time series is shown on each line and labelled based on its coordinates. The lines are colored following the selected feature in "Color Lines by" at the top of the screen. They are then sorted automatically by one of the selected methods or manually, by dragging and dropping each line in the desired position. Lines can be removed by dragging them to the top "trash bin area" that appear every time a line is dragged.
++ Sortable Graph: Every selected time series is shown on each line and labelled based on its coordinates. The lines are colored following the selected feature in "Color Lines by" at the top of the screen. They are then sorted automatically by one of the selected methods or manually, by dragging and dropping each line in the desired position, as seen on the above picture. Lines can be removed by dragging them to the top "trash bin area" that appear every time a line is dragged.
 
 
 Animated Time Series Visualizer
