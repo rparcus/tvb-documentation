@@ -46,7 +46,7 @@ There are three navigation quadrants on the left and one main "focus quadrant".
 It is also possible to navigate in space using the slide controls on the
 top-left toolbar.
 
-The playback function is activated by clicking the play button, while the time
+The playback function is activated by clicking the play button; The time
 series data is buffered from the server according to the currently selected
 view.
 
